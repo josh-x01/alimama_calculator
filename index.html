@@ -3,30 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Calculator</title>
   </head>
   <body>
     <main>
-      <div>
-        <input type="text" />
+      <div class="container">
+        <h1>Alimama Calculator</h1>
+        <input
+          type="text"
+          name="expression"
+          id="expression"
+          class="input"
+          readonly
+        />
         <div>
-          <button id="clear">C</button>
-          <button id="7">7</button>
-          <button id="8">8</button>
-          <button id="9">9</button>
-          <button id="/">/</button>
-          <button id="4">4</button>
-          <button id="5">5</button>
-          <button id="6">6</button>
-          <button id="*">*</button>
-          <button id="1">1</button>
-          <button id="2">2</button>
-          <button id="3">3</button>
-          <button id="-">-</button>
-          <button id="0">0</button>
-          <button id=".">.</button>
-          <button id="=">=</button>
-          <button id="+">+</button>
+          <div class="btn-container">
+            <button class="btn cls" id="clear">C</button>
+            <button class="btn" id="7">7</button>
+            <button class="btn" id="8">8</button>
+            <button class="btn" id="9">9</button>
+            <button class="btn op" id="/">/</button>
+            <button class="btn" id="4">4</button>
+            <button class="btn" id="5">5</button>
+            <button class="btn" id="6">6</button>
+            <button class="btn op" id="*">*</button>
+            <button class="btn" id="1">1</button>
+            <button class="btn" id="2">2</button>
+            <button class="btn" id="3">3</button>
+            <button class="btn op" id="-">-</button>
+            <button class="btn" id="0">0</button>
+            <button class="btn" id=".">.</button>
+            <button class="btn" id="=">=</button>
+            <button class="btn op" id="+">+</button>
+          </div>
         </div>
       </div>
     </main>
